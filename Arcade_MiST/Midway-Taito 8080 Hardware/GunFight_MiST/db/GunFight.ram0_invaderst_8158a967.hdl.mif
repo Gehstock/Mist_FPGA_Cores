@@ -1,0 +1,18 @@
+-- begin_signature
+-- invaderst
+-- end_signature
+WIDTH=4;
+DEPTH=8;
+
+ADDRESS_RADIX=UNS;
+DATA_RADIX=BIN;
+
+CONTENT BEGIN
+	6 :	0011;
+	5 :	0001;
+	4 :	0101;
+	3 :	0100;
+	2 :	0000;
+	1 :	0010;
+	0 :	0110;
+END;

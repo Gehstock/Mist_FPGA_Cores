@@ -1,0 +1,3 @@
+Info (10281): Verilog HDL Declaration information at GunFight_mist.sv(53): object "hsync" differs only in case from object "HSync" in the same scope
+Info (10281): Verilog HDL Declaration information at GunFight_mist.sv(53): object "vsync" differs only in case from object "VSync" in the same scope
+Warning (10268): Verilog HDL information at osd.v(101): always construct contains both blocking and non-blocking assignments
