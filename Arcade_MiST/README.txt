@@ -117,6 +117,7 @@ Aviable Arcade Cores  125
 
 #Midway MCR 2
 	Domino Man
+	Journey
 	Kozmik Kroozr
 	Satans Hollow
 	Tron
