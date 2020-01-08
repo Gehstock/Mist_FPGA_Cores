@@ -131,6 +131,7 @@ Aviable Arcade Cores  125
 	Timber
 
 #Midway MCR 3 Monoboard
+	Max RPM
 	Power Drive
 	Rampage
 	Sarge
