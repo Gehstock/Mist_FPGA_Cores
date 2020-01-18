@@ -1,4 +1,4 @@
-Aviable Arcade Cores  125
+Aviable Arcade Cores  126
 
 #Atari 6502 Black & White Raster Hardware
 	Canyon Bomber
@@ -151,7 +151,8 @@ Aviable Arcade Cores  125
 	Rally X
 
 #Nintendo Popeye Hardware
-	Popeye			
+	Popeye
+	Sky Skipper		
 
 #Nintendo Radar Scope Hardware
 	Donkey Kong
