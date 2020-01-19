@@ -1,4 +1,4 @@
-Aviable Arcade Cores  126
+Aviable Arcade Cores  132
 
 #Atari 6502 Black & White Raster Hardware
 	Canyon Bomber
@@ -201,7 +201,13 @@ Aviable Arcade Cores  126
 	Bombjack
 
 #Williams 6809 rev.1 Hardware
+	Bubbles
 	Colony 7
 	Defender
 	Jin
+	Joust
 	Mayday
+	Robotron 2084
+	Sinistar
+	Splat
+	Stargate
