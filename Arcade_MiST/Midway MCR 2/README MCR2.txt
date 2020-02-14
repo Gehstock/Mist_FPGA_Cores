@@ -1,67 +1,40 @@
-Midway MCR Monoboard MiST port
+-- Satan's Hollow/Tron/Wacko/Kozmik Krooz'r/Two Tigers/Domino Man Arcade
+-- Based on Dar's Satan's Hollow VHDL code
+-- Interlaced 15kHz/31kHz VGA
+--
+-- Controls: joystick, mouse, standard MAME keys
+-- Coin: ESC, 5, 6
+-- Start: F1, F2, 1, 2
 
-Common controls:
-ESC - coin for all players
-5,6,7 - coin for player 1,2,3 (MAME compatible)
-F1,F2,F3 (or 1,2,3) - player 1,2,3 start
-Controller 1 and 2 can be substitued with MAME-keys
+-- Tron: Joystick 1 for movement, Joystick 2 (MAME keys: D, G) for turret
+-- Wacko: control Captain Krooz'r with the mouse, shoot with the joystick
+-- Kozmik Krooz'r: use the mouse for movement and shoot, rotate the turret with the joystick
 
-Supported games:
-
-Sarge
-=====
-Controls:
-Player 1: joystick 1 and joystick 2
-Player 2: joystick 3 and joystick 4
-
-Max RPM
-=======
-Controls:
-Gear : Button1/Button2
-Steering: Left/Right
-Throttle/Brake: Up/Down
-
-Rampage
-=======
-Normal controls for maximum of 3 players.
-
-Power Drive
-===========
-3 players support 
-Buttons 1,2 - Gas
-Button  3   - Wheelie
-Button  4   - Shift
-
-Usage:
-======
-
-Create ROM and ARC files from MAME ROM zip files using the mra utility and the MRA files.
-Copy the RBF and the ARC files to the same folder.
-Example: mra -z /path/to/mame/roms Tron.mra
-Copy the ROM files to the root of the SD Card.
-
-MRA utilty: https://github.com/sebdel/mra-tools-c
-
-Based on Darfpga's work:
+-- Create ROM and ARC files from MAME ROM zip files using the mra utility and the MRA files.
+-- Copy the RBF and the ARC files to the same folder.
+-- Example: mra -z /path/to/mame/roms Tron.mra
+-- Copy the ROM files to the root of the SD Card.
+--
+-- MRA utilty: https://github.com/sebdel/mra-tools-c
 ---------------------------------------------------------------------------------
--- DE10_lite Top level for Timber (Midway MCR) by Dar (darfpga@aol.fr) (22/11/2019)
+-- DE10_lite Top level for Satan Hollow (Midway MCR) by Dar (darfpga@aol.fr) (19/10/2019)
 -- http://darfpga.blogspot.fr
 ---------------------------------------------------------------------------------
-
 --
--- release rev 00 : initial release
---  (22/11/2019)
+-- release rev 02 : add TV 15kHz mode
+--  (22/11/2019)    use merged sprite 8bits roms (make it easier to externalize)
+--  
+--  release 01 : improve ssio read input (fix mirror addressing)
+--               improve memory access (fix mirror addressing)
 --
---   /!\ /!\ cannot fit de10_lite : Full size sprite rom required more room or
---           sdram usage (TO DO)
---
+--  release 00 : initial release
 ---------------------------------------------------------------------------------
 -- Educational use only
 -- Do not redistribute synthetized file with roms
 -- Do not redistribute roms whatever the form
 -- Use at your own risk
 ---------------------------------------------------------------------------------
--- Use timber_de10_lite.sdc to compile (Timequest constraints)
+-- Use satan_hollow_de10_lite.sdc to compile (Timequest constraints)
 -- /!\
 -- Don't forget to set device configuration mode with memory initialization 
 --  (Assignments/Device/Pin options/Configuration mode)
@@ -71,7 +44,7 @@ Based on Darfpga's work:
 --  PS2 keyboard input @gpio pins 35/34 (beware voltage translation/protection) 
 --  Audio pwm output   @gpio pins 1/3 (beware voltage translation/protection) 
 --
---  Video         : VGA 31kHz/60Hz progressive and TV 15kHz interlaced
+--  Video         : 31Khz/60Hz
 --  Cocktail mode : NO
 --  Sound         : OK
 -- 
@@ -87,29 +60,18 @@ Based on Darfpga's work:
 --   F1 : Add coin
 --   F2 : Start 1 player
 --   F3 : Start 2 players
---   F4 : Demo sound
---   F5 : Separate audio
---   F7 : Service mode
---   F8 : 15kHz interlaced / 31 kHz progressive
-
---   SPACE       : bouton 1
---   v key       : bouton 2
+--   F5 : Sevice mode ON/OFF
+--   SPACE       : fire
 --   RIGHT arrow : move right
 --   LEFT  arrow : move left
---   UP    arrow : move up
---   DOWN  arrow : move down
+--   UP    arrow : shield 
 --
--- Other details : see timber.vhd
+-- Other details : see satans_hollow.vhd
 -- For USB inputs and SGT5000 audio output see my other project: xevious_de10_lite
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
--- Timber by Dar (darfpga@aol.fr) (22/11/2019)
+-- Satans Hollow by Dar (darfpga@aol.fr) (09/11/2019)
 -- http://darfpga.blogspot.fr
----------------------------------------------------------------------------------
---
--- release rev 00 : initial release
---  (22/11/2019)
---
 ---------------------------------------------------------------------------------
 -- gen_ram.vhd & io_ps2_keyboard
 -------------------------------- 
@@ -129,43 +91,52 @@ Based on Darfpga's work:
 -- Do not redistribute roms whatever the form
 -- Use at your own risk
 ---------------------------------------------------------------------------------
-
+--
+-- release rev 02 : add TV 15kHz mode
+--  (22/11/2019)    use merged sprite 8bits roms (make it easier to externalize)
+--
+-- release rev 01 : improve ssio read input (fix mirror addressing)
+--                  improve memory access (fix mirror addressing)
+--
+-- release rev 00 : initial release
+--
+---------------------------------------------------------------------------------
 --  Features :
---   Video        : VGA 31Khz/60Hz progressive and TV 15kHz interlaced
+--   Video        : 31Khz/60Hz
 --   Coctail mode : NO
 --   Sound        : OK
 
---  Use with MAME roms from timber.zip
+--  Use with MAME roms from shollow.zip
 --
---  Use make_timber_proms.bat to build vhd file from binaries
+--  Use make_satans_hollow_proms.bat to build vhd file from binaries
 --  (CRC list included)
 
---  Timber (midway mcr) Hardware caracteristics :
+--  Satans hollow (midway mcr) Hardware caracteristics :
 --
 --  VIDEO : 1xZ80@3MHz CPU accessing its program rom, working ram,
 --    sprite data ram, I/O, sound board register and trigger.
---		  56Kx8bits program rom
+--		  48Kx8bits program rom
 --
 --    One char/background tile map 30x32
---      2x8Kx8bits graphics rom 4bits/pixel + 2 bit color set
+--      2x8Kx8bits graphics rom 4bits/pixel
 --      rbg programmable ram palette 64 colors 9bits : 3red 3green 3blue
 --
---    128 sprites, up to ~30/line, 32x32 with flip H/V
---      4x32Kx8bits graphics rom 4bits/pixel + 2 bit color set
+--    128 sprites, up to ~15/line, 32x32 with flip H/V
+--      4x8Kx8bits graphics rom 4bits/pixel
 --      rbg programmable ram palette 64 colors 9bits : 3red 3green 3blue 
 --
 --    Working ram : 2Kx8bits
 --    video (char/background) ram  : 2Kx8bits
 --    Sprites ram : 512x8bits + 512x8bits cache buffer
 
---    Sprites line buffer rams (graphics and colors) : 1 scan line delay flip/flop 2x256x16bits
+--    Sprites line buffer rams : 1 scan line delay flip/flop 2x256x8bits
 --
---  SOUND : see tron_sound_board.vhd
+--  SOUND : see satans_hollow_sound_board.vhd
 
 ---------------------------------------------------------------------------------
 --  Schematics remarks :
 --
---		Display is 512x480 pixels  (video 635x525 lines @ 20MHz )
+--    Display is 512x480 pixels  (video 635x525 lines @ 20MHz )
 
 --       635/20e6  = 31.75us per line  (31.750KHz)
 --       31.75*525 = 16.67ms per frame (59.99Hz)
@@ -227,46 +198,42 @@ Based on Darfpga's work:
 --    initial bases (live) number. Otherwise one can set it up by using service
 --    menu at each power up.
 --
----------------------------------------------------------------------------------
-
- /!\ /!\ HALF SIZE SPRITE ROM  /!\ /!\
-
-Full size sprite rom would required more room or external ram
 
 +----------------------------------------------------------------------------------+
 ; Fitter Summary                                                                   ;
 +------------------------------------+---------------------------------------------+
-; Fitter Status                      ; Successful - Fri Nov 22 17:33:36 2019       ;
+; Fitter Status                      ; Successful - Wed Nov 13 19:50:34 2019       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
-; Revision Name                      ; timber_de10_lite                            ;
-; Top-level Entity Name              ; timber_de10_lite                            ;
+; Revision Name                      ; satans_hollow_de10_lite                     ;
+; Top-level Entity Name              ; satans_hollow_de10_lite                     ;
 ; Family                             ; MAX 10                                      ;
 ; Device                             ; 10M50DAF484C6GES                            ;
 ; Timing Models                      ; Preliminary                                 ;
-; Total logic elements               ; 6,779 / 49,760 ( 14 % )                     ;
-;     Total combinational functions  ; 6,540 / 49,760 ( 13 % )                     ;
-;     Dedicated logic registers      ; 1,724 / 49,760 ( 3 % )                      ;
-; Total registers                    ; 1724                                        ;
+; Total logic elements               ; 6,545 / 49,760 ( 13 % )                     ;
+;     Total combinational functions  ; 6,307 / 49,760 ( 13 % )                     ;
+;     Dedicated logic registers      ; 1,671 / 49,760 ( 3 % )                      ;
+; Total registers                    ; 1671                                        ;
 ; Total pins                         ; 105 / 360 ( 29 % )                          ;
 ; Total virtual pins                 ; 0                                           ;
-; Total memory bits                  ; 1,399,360 / 1,677,312 ( 83 % )  <--  WITH HALF SIZE SPRITE ROM ONLY
+; Total memory bits                  ; 938,560 / 1,677,312 ( 56 % )                ;
 ; Embedded Multiplier 9-bit elements ; 0 / 288 ( 0 % )                             ;
 ; Total PLLs                         ; 1 / 4 ( 25 % )                              ;
 ; UFM blocks                         ; 0 / 1 ( 0 % )                               ;
 ; ADC blocks                         ; 0 / 2 ( 0 % )                               ;
 +------------------------------------+---------------------------------------------+
 
+
 ---------------
 VHDL File list 
 ---------------
 
-de10_lite/max10_pll_40M.vhd        Pll 40MHz from 50MHz altera mf 
+de10_lite/max10_pll_40M.vhd        Pll 40MHz from 50MHz altera mf
 
-rtl_dar/timber_de10_lite.vhd       Top level for de10_lite board
-rtl_dar/timber.vhd                 Main CPU and video boards logic
-rtl_dar/timber_sound_board.vhd     Main sound board logic
-rtl_dar/ctc_controler.vhd          Z80-CTC controler 
-rtl_dar/ctc_counter.vhd            Z80-CTC counter
+rtl_dar/satans_hollow_de10_lite.vhd    Top level for de10_lite board
+rtl_dar/satans_hollow.vhd              Main CPU and video boards logic
+rtl_dar/satans_hollow_sound_board.vhd  Main sound board logic
+rtl_dar/ctc_controler.vhd              Z80-CTC controler 
+rtl_dar/ctc_counter.vhd                Z80-CTC counter
 
 rtl_mikej/YM2149_linmix.vhd        Copyright (c) MikeJ - Jan 2005
 
@@ -282,47 +249,45 @@ rtl_dar/io_ps2_keyboard.vhd        Copyright 2005-2008 by Peter Wendrich (pwsoft
 rtl_dar/gen_ram.vhd                Generic RAM (Peter Wendrich + DAR Modification)
 rtl_dar/decodeur_7_seg.vhd         7 segments display decoder
 
-rtl_dar/proms/timber_cpu.vhd         CPU board PROMS
-rtl_dar/proms/timber_bg_bits_2.vhd
-rtl_dar/proms/timber_bg_bits_1.vhd
+rtl_dar/proms/satans_hollow_cpu.vhd         CPU board PROMS
+rtl_dar/proms/satans_hollow_bg_bits_2.vhd
+rtl_dar/proms/satans_hollow_bg_bits_1.vhd
 
-rtl_dar/proms/timber_sp_bits.vhd     Video board PROMS
+rtl_dar/proms/satans_hollow_sp_bits.vhd     Video board PROMS
 
-rtl_dar/proms/timber_sound_cpu.vhd   Sound board PROMS
+rtl_dar/proms/satans_hollow_sound_cpu.vhd   Sound board PROMS
 rtl_dar/proms/midssio_82s123.vhd
 
 ----------------------
 Quartus project files
 ----------------------
-de10_lite/timber_de10_lite.sdc   Timequest constraints file
-de10_lite/timber_de10_lite.qsf   de10_lite settings (files,pins...) 
-de10_lite/timber_de10_lite.qpf   de10_lite project
+de10_lite/satans_hollow_de10_lite.sdc   Timequest constraints file
+de10_lite/satans_hollow_de10_lite.qsf   de10_lite settings (files,pins...) 
+de10_lite/satans_hollow_de10_lite.qpf   de10_lite project
 
 -----------------------------
 Required ROMs (Not included)
 -----------------------------
-You need the following 18 ROMs binary files from timber.zip and midssio.zip(MAME)
+You need the following 16 ROMs binary files from satans_hollow.zip and midssio.zip(MAME)
 
-timpg0.bin  CRC 377032ab
-timpg1.bin  CRC fd772836
-timpg2.bin  CRC 632989f9
-timpg3.bin  CRC dae8a0dc
+sh-pro.00 CRC 95e2b800
+sh-pro.01 CRC b99f6ff8
+sh-pro.02 CRC 1202c7b2
+sh-pro.03 CRC 0a64afb9
+sh-pro.04 CRC 22fa9175
+sh-pro.05 CRC 1716e2bb
 
-tima7.bin   CRC c615dc3e
-tima8.bin   CRC 83841c87
-tima9.bin   CRC 22bcdcd3
+sh-snd.01 CRC 55a297cc
+sh-snd.02 CRC 46fc31f6
+sh-snd.03 CRC b1f4a6a8
 
-timbg1.bin  CRC b1cb2651
-timbg0.bin  CRC 2ae352c4
+sh-bg.00  CRC 3e2b333c
+sh-bg.01  CRC d1d70cc4
 
-timfg1.bin  CRC 81de4a73
-timfg0.bin  CRC 7f3a4f59
-timfg3.bin  CRC 37c03272
-timfg2.bin  CRC e2c2885c
-timfg5.bin  CRC eb636216
-timfg4.bin  CRC b7105eb7
-timfg7.bin  CRC d9c27475
-timfg6.bin  CRC 244778e8
+sh-fg.00  CRC 33f4554e
+sh-fg.01  CRC ba1a38b4
+sh-fg.02  CRC 6b57f6da
+sh-fg.03  CRC 37ea9d07
 
 midssio_82s123.12d CRC e1281ee9
 
@@ -330,22 +295,23 @@ midssio_82s123.12d CRC e1281ee9
 Tools 
 ------
 You need to build vhdl files from the binary file :
- - Unzip the roms file in the tools/timber_unzip directory
- - Double click (execute) the script tools/make_timber_proms.bat to get the following 6 files
+ - Unzip the roms file in the tools/satans_hollow_unzip directory
+ - Double click (execute) the script tools/make_satans_hollow_proms.bat to get the following 6 files
 
-timber_cpu.vhd
-timber_sound_cpu.vhd
-timber_bg_bits_1.vhd
-timber_bg_bits_2.vhd 
-timber_sp_bits.vhd
-midssio_82s123.vhd
+satans_hollow_cpu.vhd
+satans_hollow_sound_cpu.vhd
+satans_hollow_bg_bits_1.vhd
+satans_hollow_bg_bits_2.vhd 
+satans_hollow_sp_bits.vhd
+
+make_vhdl_prom midssio_82s123.12d midssio_82s123.vhd
 
 
 *DO NOT REDISTRIBUTE THESE FILES*
 
 VHDL files are needed to compile and include roms into the project 
 
-The script make_timber_proms.bat uses make_vhdl_prom executables delivered both in linux and windows version. The script itself is delivered only in windows version (.bat) but should be easily ported to linux.
+The script make_satans_hollow_proms.bat uses make_vhdl_prom executables delivered both in linux and windows version. The script itself is delivered only in windows version (.bat) but should be easily ported to linux.
 
 Source code of make_vhdl_prom.c is also delivered.
 
@@ -358,8 +324,8 @@ You can build the project with ROM image embeded in the sof file.
 3 steps
 
  - put the VHDL ROM files (.vhd) into the rtl_dar/proms directory
- - build timber_de10_lite
- - program timber_de10_lite.sof
+ - build satans_hollow_de10_lite
+ - program satans_hollow_de10_lite.sof
 
 ------------------------
 ------------------------

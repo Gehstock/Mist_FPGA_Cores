@@ -1,0 +1,5 @@
+[ARC]
+RBF=MCR3MONO
+MOD=1
+NAME=SARGE
+CONF="O8,Free Play,On,Off"
