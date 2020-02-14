@@ -1,32 +1,35 @@
 <misterromdescription>
-    <name>Joust</name>
+    <name>Robotron 2084</name>
     <mameversion>0209</mameversion>
-    <rom index="0" zip="joust.zip" md5="190c1b26e2103232a58405f8ebdd752c" type="merged">
-	<part name="3006-13.1b"/>
-	<part name="3006-14.2b"/>
-	<part name="3006-15.3b"/>
-	<part name="3006-16.4b"/>
-	<part name="3006-17.5b"/>
-	<part name="3006-18.6b"/>
-	<part name="3006-19.7b"/>
-	<part name="3006-20.8b"/>
-	<part name="3006-21.9b"/>
-	<part name="3006-22.10b"/>
-	<part name="3006-23.11b"/>
-	<part name="3006-24.12b"/>
+    <rbf>robotron</rbf>
+    <setname>robotron</setname>
+    <rom index="1"><part>0</part></rom>
+    <rom index="0" zip="robotron.zip" md5="1d2f8e7d602ec2f848bad17f3cf928e2" type="merged">
+	<part name="robotron.sb1"/>
+	<part name="robotron.sb2"/>
+	<part name="robotron.sb3"/>
+	<part name="robotron.sb4"/>
+	<part name="robotron.sb5"/>
+	<part name="robotron.sb6"/>
+	<part name="robotron.sb7"/>
+	<part name="robotron.sb8"/>
+	<part name="robotron.sb9"/>
+	<part name="robotron.sba"/>
+	<part name="robotron.sbb"/>
+	<part name="robotron.sbc"/>
 
-	<part name="joust.snd"/>
+	<part name="robotron.snd"/>
 
 	<part>
-		f2 00 00 f5 00 f1 00 f3 00 f1 00 f4 00 f1 00 f1 
-		00 00 00 00 00 f5 00 f3 00 00 00 00 00 00 00 00 
-		00 00 00 00 00 fa 00 fa 00 fa 00 fa 00 fa 00 fa 
-		00 fa f1 fa f1 fc 00 ff f1 fd 00 ff f1 f8 f1 fe 
-		00 ff 00 fe 00 fa 00 fc f2 f3 f3 f2 00 fa 00 fa 
-		00 fa 00 fa 00 fa f2 f1 f1 f3 f1 f6 f1 f6 f1 f3 
-		00 fb f1 f7 f1 fd 00 fa 00 ff f1 f6 00 ff 00 fd 
-		f1 fe f1 fc f1 f9 f1 f8 f1 f3 00 fd f1 fd 00 fa 
-		f1 f3 f1 f8 00 fd f2 fe f2 f5 f2 f9 f5 f1 f5 f2 
+		02 25 00 03 00 03 00 01 00 04 00 01 00 01 00 00 
+		00 00 00 01 00 03 00 03 00 00 00 00 00 00 00 00 
+		00 00 00 00 02 20 02 20 02 20 02 20 02 20 05 50 
+		05 52 04 45 05 53 04 45 04 4e 05 54 04 45 04 04 
+		02 20 04 42 05 59 02 20 02 20 02 20 02 20 02 20 
+		02 20 02 20 02 20 05 57 04 49 04 4c 04 4c 04 49 
+		04 41 04 4d 05 53 02 20 04 45 04 4c 04 45 04 43 
+		05 54 05 52 04 4f 04 4e 04 49 04 43 05 53 02 20 
+		04 49 04 4e 04 43 03 3d 02 2f 02 28 05 52 0e ec 
 		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
 		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
 		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
@@ -82,6 +85,6 @@
 		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
 		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
 		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
-	</part>
+        </part>
     </rom>
 </misterromdescription>
