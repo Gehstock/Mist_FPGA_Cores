@@ -11,8 +11,8 @@ Supported games:
 Sarge
 =====
 Controls:
-Player 1: joystick 1 and joystick 2
-Player 2: joystick 3 and joystick 4
+Player 1: joystick 1 and joystick 2 (two sticks mode), joystick1 only(one stick mode)
+Player 2: joystick 3 and joystick 4 (two sticks mode), joystick2 only(one stick mode)
 
 Max RPM
 =======
