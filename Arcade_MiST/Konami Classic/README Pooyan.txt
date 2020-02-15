@@ -1,7 +1,5 @@
 Arcade: Pooyan port to MiST by Gehstock
 
-Wron Colors i dont know why??
-
 POOYAN.ROM is required at the root of the SD-Card.
 
 
