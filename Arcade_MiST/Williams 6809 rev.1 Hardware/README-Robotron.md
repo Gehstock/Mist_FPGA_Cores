@@ -10,10 +10,10 @@ Sinistar has some graphics issues, and the speech chip is not implemented.
 
 Usage:
 ------
-- Make sure you use firmware 200208 or later.
+- Make sure you use firmware 200215 or later.
+- Create ROM and ARC files from MAME ROM zip files using the mra utility and the MRA files.
+- Example: mra -A -z /path/to/mame/roms Stargate.mra
 - Copy the RBF and the ARC files to the same folder.
-- Create ROM files from MAME ROM zip files using the mra utility and the MRA files.
-- Example: mra -z /path/to/mame/roms scramble.mra
 - Copy the ROM files to the root of the SD Card.
 
 - MRA utilty: https://github.com/sebdel/mra-tools-c
