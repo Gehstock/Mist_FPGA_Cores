@@ -5,7 +5,7 @@
     <year>1984</year>
     <manufacturer>Bally Midway</manufacturer>
     <category>Action</category>
-    <rbf>MCR3Mono</rbf>
+    <rbf>mcr3</rbf>
     <setname>demoderm</setname>
     <switches>
 	<dip bits="8"    name="Cabinet" ids="2P Upright,4P Cocktail"/>
