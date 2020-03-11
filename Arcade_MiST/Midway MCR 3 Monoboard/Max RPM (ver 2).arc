@@ -1,5 +1,0 @@
-[ARC]
-RBF=MCR3MONO
-MOD=3
-NAME=MAXRPM
-CONF="O8,Free Play,On,Off"

@@ -1,28 +1,81 @@
-Discs of Tron MiST port
-- DOTRON.ROM is needed on the SD Card.
+Midway MCR3 MiST port
 
+Common controls:
+ESC - coin for all players
+5,6,7,8 - coin for player 1,2,3,4 (MAME compatible)
+F1,F2,F3 (or 1,2,3) - player 1,2,3,4 start
+Controller 1 and 2 can be substitued with MAME-keys
 
-	Aim Left    	:     F
-	Aim Right   	:     G
-	Level Up   	:     F3
-	Level Down   	:     F4
-	Forward   	:     Up
-	Backward   	:     Down
-	Left   		:     Left
-	Right   	:     Right
-	Coin   		:     ESC
-	1 Player   	:     F1
-	2 Player   	:     F2
-	Block   	:     Alt
-	Fire   		:     Space
+Supported games:
 
+Sarge
+=====
+Controls:
+Player 1: joystick 1 and joystick 2 (two sticks mode), joystick1 only(one stick mode)
+Player 2: joystick 3 and joystick 4 (two sticks mode), joystick2 only(one stick mode)
 
+Max RPM
+=======
+Controls:
+Gear : Button1/Button2
+Steering: Left/Right
+Throttle/Brake: Up/Down
 
+Rampage
+=======
+Normal controls for maximum of 3 players.
+
+Power Drive
+===========
+3 players support 
+Buttons 1,2 - Gas
+Button  3   - Wheelie
+Button  4   - Shift
+
+Demolition Derby
+================
+4 players support
+Gas: Button 1
+Brake: Button 2
+Steering: Left/Right
+
+Tapper, Timber
+==============
+Normal controls for maximum of 2 players
+
+Discs of Tron
+=============
+
+                             Joy/keyboard   MAME key
+        Forward         :     Up
+        Backward        :     Down
+        Left            :     Left
+        Right           :     Right
+        Coin            :     ESC             5,6
+        1 Player        :     F1               1
+        2 Player        :     F2               2
+        Fire            :     Button A       LCtrl
+        Block           :     Button B       LAlt
+        Aim Left        :     Button X,L      Z,C
+        Aim Right       :     Button Y,R      X,V
+        Aim Up          :     Button C       Space
+        Aim Down        :     Button D       LShift
+
+Usage:
+======
+
+Create ROM and ARC files from MAME ROM zip files using the mra utility and the MRA files.
+Example: mra -A -z /path/to/mame/roms Rampage.mra
+Copy the RBF and the ARC files to the same folder.
+Copy the ROM files to the root of the SD Card.
+
+MRA utilty: https://github.com/sebdel/mra-tools-c
+
+Based on Darfpga's work:
 ---------------------------------------------------------------------------------
--- DE10_lite Top level for Discs of Tron (Midway MCR) by Dar (darfpga@aol.fr) (22/11/2019)
+-- DE10_lite Top level for Timber (Midway MCR) by Dar (darfpga@aol.fr) (22/11/2019)
 -- http://darfpga.blogspot.fr
 ---------------------------------------------------------------------------------
-
 
 --
 -- release rev 00 : initial release
