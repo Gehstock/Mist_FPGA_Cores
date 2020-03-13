@@ -77,7 +77,7 @@ Aviable Arcade Cores  132
 #Irem M57 Hardware
 	Tropical Angel
 
-#Irem M52 Hardware
+#Irem M62 Hardware
 	Horizon
 	Kid Niki - Radical Ninja
 	Kung-Fu Master
