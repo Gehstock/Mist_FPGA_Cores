@@ -73,6 +73,24 @@ Aviable Arcade Cores  132
 	Shot Rider
 	Traverse USA
 
+
+#Irem M57 Hardware
+	Tropical Angel
+
+#Irem M52 Hardware
+	Horizon
+	Kid Niki - Radical Ninja
+	Kung-Fu Master
+	Lode Runner
+	Lode Runner 2 - The Bungling Strikes Back
+	Lode Runner 3 - Majin No Fukkatsu
+	Lode Runner 4 - Teikoku Karano Dasshutsu
+	Lot Lot
+	Spelunker
+	Spelunker 2
+	The Battle Road
+	Youjyudn
+
 #Ladybug Hardware
 	Cosmic Avenger
 	Dorodon
