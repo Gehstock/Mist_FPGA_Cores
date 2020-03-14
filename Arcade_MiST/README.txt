@@ -1,4 +1,8 @@
-Aviable Arcade Cores  132
+General usage instructions:
+
+https://github.com/mist-devel/mist-board/wiki/CoreDocArcade
+
+Available Arcade Cores  172
 
 #Atari 6502 Black & White Raster Hardware
 	Canyon Bomber
@@ -58,7 +62,7 @@ Aviable Arcade Cores  132
 	Galaxian
 	King & Balloon
 	Moon Cresta
-	Mr. Do´s Nightmare
+	Mr. Do's Nightmare
 	Omega
 	Orbitron
 	Pisces
@@ -66,13 +70,13 @@ Aviable Arcade Cores  132
 	Uniwars
 	Victory
 	War of Bugs
+	Lucky Today
 	Zig Zag
 
 #Irem M52 Hardware
 	Moon Patrol
 	Shot Rider
 	Traverse USA
-
 
 #Irem M57 Hardware
 	Tropical Angel
@@ -105,19 +109,29 @@ Aviable Arcade Cores  132
 #Konami Green Beret Hardware
 	Green Beret
 	Mr. Goemon
-	Rush´n Attack
+	Rush'n Attack
 
 #Konami Scramble Hardware
 	Amidar
+	Ant Eater
 	Armored Car
+	Battle of Atlantis
 	Calipso
+	Dark Planet
 	Frogger
+	Lost Tomb
+	Mars
+	Mighty Monkey
+	Minefield
 	Moonwar
+	Rescue
 	Scramble
 	Speed Coin
 	Super Cobra
+	Strategy X
 	Tazz Mania
-	The End	
+	Turtles
+	The End
 
 #Midway / Taito 8080 Hardware
 	Galaxy Wars
@@ -132,6 +146,7 @@ Aviable Arcade Cores  132
 #Midway MCR 1
 	Kickman
 	Solar fox
+	Draw Poker
 
 #Midway MCR 2
 	Domino Man
@@ -139,25 +154,23 @@ Aviable Arcade Cores  132
 	Kozmik Kroozr
 	Satans Hollow
 	Tron
-	Two Tigers(Tron Conversation)
+	Two Tigers(Tron Conversion)
 	Wacko
 
 #Midway MCR 3
+	Max RPM
+	Power Drive
+	Rampage
+	Sarge
 	Demolition Derby
 	Discs of Tron
 	Tapper
 	Timber
 
-#Midway MCR 3 Monoboard
-	Max RPM
-	Power Drive
-	Rampage
-	Sarge
-	
-
 #Midway MCR Scroll
 	Crater Raider
 	Spy Hunter
+	Turbo Tag
 
 #Namco Mappy Hardware
 	Dig Dug 2
@@ -170,7 +183,7 @@ Aviable Arcade Cores  132
 
 #Nintendo Popeye Hardware
 	Popeye
-	Sky Skipper		
+	Sky Skipper
 
 #Nintendo Radar Scope Hardware
 	Donkey Kong
@@ -219,12 +232,14 @@ Aviable Arcade Cores  132
 	Bombjack
 
 #Williams 6809 rev.1 Hardware
+	Alien Arena
 	Bubbles
 	Colony 7
 	Defender
 	Jin
 	Joust
 	Mayday
+	Playball!
 	Robotron 2084
 	Sinistar
 	Splat
