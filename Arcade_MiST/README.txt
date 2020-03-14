@@ -73,7 +73,6 @@ Aviable Arcade Cores  132
 	Shot Rider
 	Traverse USA
 
-
 #Irem M57 Hardware
 	Tropical Angel
 
