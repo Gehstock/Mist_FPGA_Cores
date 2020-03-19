@@ -22,3 +22,5 @@ MiST port usage
 - Copy the RBF and ARC files to the same folder on the SD Card
 
 MRA utility: https://github.com/sebdel/mra-tools-c/
+
+Note: you need at least firmware version 200311.
