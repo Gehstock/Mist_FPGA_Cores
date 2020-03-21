@@ -172,33 +172,7 @@ Available Arcade Cores  172
 	Spy Hunter
 	Turbo Tag
 
-#Namco Mappy Hardware
-	Dig Dug 2
-	Mappy
-	Motos
-	The Tower of Druaga
-
-#Namco Rally X Hardware
-	Rally X
-
-#Nintendo Popeye Hardware
-	Popeye
-	Sky Skipper
-
-#Nintendo Radar Scope Hardware
-	Donkey Kong
-	Donkey Kong Jr.
-
-#Non Arcade
-	2048
-	Arkanoid
-	FlappyBird
-	River Raid(Clone)
-
-#Nova2001_Hardware
-	Ninja Kun
-
-#Pacman Hardware
+#Namco Pacman Hardware
 	Ali Baba and 40 Thieves
 	Birdiy
 	Crush Roller
@@ -219,6 +193,32 @@ Available Arcade Cores  172
 	Super Glob
 	Van Van Car
 	Woodpecker
+
+#Namco Rally X Hardware
+	Rally X
+
+#Namco Super Pacman Hardware
+	Dig Dug 2
+	Mappy
+	Motos
+	The Tower of Druaga
+
+#Nintendo Popeye Hardware
+	Popeye
+	Sky Skipper
+
+#Nintendo Radar Scope Hardware
+	Donkey Kong
+	Donkey Kong Jr.
+
+#Non Arcade
+	2048
+	Arkanoid
+	FlappyBird
+	River Raid(Clone)
+
+#Nova2001_Hardware
+	Ninja Kun
 
 #Phoenix Hardware
 	Capitol
