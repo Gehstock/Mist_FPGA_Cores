@@ -35,6 +35,8 @@ Available Arcade Cores  172
 	Frenzy
 	Moonwar
 
+#Capcom SonSon
+
 #Crazy Climber Hardware
 	Crazy Climber
 	Crazy Kong
