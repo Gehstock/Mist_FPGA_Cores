@@ -2,7 +2,7 @@ General usage instructions:
 
 https://github.com/mist-devel/mist-board/wiki/CoreDocArcade
 
-Available Arcade Cores  173
+Available Arcade Cores(Games)  173
 
 #Atari 6502 Black & White Raster Hardware
 	Canyon Bomber
