@@ -1,7 +1,6 @@
 -- Zaxxon port to MiST
--- no sound
 -- need ZAXXON.ROM on the SD Card
---
+-- added Rom File includes Sound Roms
 ---------------------------------------------------------------------------------
 -- DE10_lite Top level for Zaxxon by Dar (darfpga@aol.fr) (23/11/2019)
 -- http://darfpga.blogspot.fr
