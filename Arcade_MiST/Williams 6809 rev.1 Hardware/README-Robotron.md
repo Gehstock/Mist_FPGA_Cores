@@ -1,10 +1,10 @@
 robotron-fpga MiST port
 =======================
 
-Supported games: Robotron 2048, Joust, Sinistar, Bubbles, Splat, Stargate, Alien Arena
+Supported games: Robotron 2048, Joust, Sinistar, Bubbles, Splat, Stargate, Alien Arena, Lotto Fun
 
 After loading the RBF (Core), a CMOS clearing happens. When the message 
-"Factory Settings Restored" appears, press the MiST soft RESET button (right).
+"Factory Settings Restored" or "Memory Protect Switch must be up!" appears, press the MiST soft RESET button (right).
 
 Sinistar has some graphics issues, and the speech chip is not implemented.
 

@@ -2,7 +2,7 @@ General usage instructions:
 
 https://github.com/mist-devel/mist-board/wiki/CoreDocArcade
 
-Available Arcade Cores(Games)  173
+Available Arcade Cores(Games)  174
 
 #Atari 6502 Black & White Raster Hardware
 	Canyon Bomber
@@ -240,6 +240,7 @@ Available Arcade Cores(Games)  173
 	Defender
 	Jin
 	Joust
+	Lotto Fun
 	Mayday
 	Playball!
 	Robotron 2084
