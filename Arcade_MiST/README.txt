@@ -228,9 +228,9 @@ Available Arcade Cores(Games)  176
 	Pleiads
 
 #Sega Zaxxon Hardware
-	Future Spy(no Sound)
+	Future Spy
 	Zaxxon
-	Super Zaxxon(no Sound)
+	Super Zaxxon
 
 #Tehkan Bombjack Hardware
 	Bombjack
