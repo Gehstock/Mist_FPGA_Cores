@@ -1,12 +1,11 @@
 robotron-fpga MiST port
 =======================
 
-Supported games: Robotron 2048, Joust, Sinistar, Bubbles, Splat, Stargate, Alien Arena, Lotto Fun
+Supported games: Robotron 2048, Joust, Splat, Bubbles, Stargate, Alien Arena, Sinistar,
+  Playball!, Lotto Fun, Speed Ball
 
 After loading the RBF (Core), a CMOS clearing happens. When the message 
-"Factory Settings Restored" or "Memory Protect Switch must be up!" appears, press the MiST soft RESET button (right).
-
-Sinistar has some graphics issues, and the speech chip is not implemented.
+"Factory Settings Restored" appears, press the MiST soft RESET button (right).
 
 Usage:
 ------
@@ -18,7 +17,7 @@ Usage:
 
 - MRA utilty: https://github.com/sebdel/mra-tools-c
 
-Note: the MRA files contains a dump of the CMOS RAM. It will be included in the genearted ROM file.
+Note: the MRA files contains a dump of the CMOS RAM. It will be included in the generated ROM file.
 Change it for permanent settings (search for the format online). It's possible to change these values
 inside the core, with turning on "Auto-up" switch, and activate the "Advance" trigger in the OSD.
 Refer to the arcade's user manual for further info.
@@ -31,6 +30,7 @@ Some of the Williams cores use more buttons than usual and require remaps to be 
 
 The file [README-joystick-remaps.txt](https://github.com/Gehstock/Mist_FPGA_Cores/blob/master/Arcade_MiST/Williams%206809%20rev.1%20Hardware/README-joystick-remaps.txt) contains joystick remaps for the Williams cores.
 
+** Note: ** Speed Ball is playable only with two human players. It needs two controllers and two mice (with the appropriate firmware supporting two mice).
 
 ---
 
