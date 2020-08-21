@@ -2,7 +2,7 @@ General usage instructions:
 
 https://github.com/mist-devel/mist-board/wiki/CoreDocArcade
 
-Available Arcade Cores(Games)  176
+Available Arcade Cores(Games)  182
 
 #Atari 6502 Black & White Raster Hardware
 	Canyon Bomber
@@ -136,13 +136,19 @@ Available Arcade Cores(Games)  176
 	The End
 
 #Midway / Taito 8080 Hardware
-	Galaxy Wars
+	280ZZZAP
+	BalloonBomber
+	BlueShark
+	Boothill
+	BowlingAlley
+	GunFight
 	Lunar Rescue
 	Ozma Wars
 	Space Attack
 	Space Invaders
 	Space Invaders II(Deluxe)
 	Space Laser
+	SpaceWalk
 	Super Earth Invasion
 
 #Midway MCR 1
