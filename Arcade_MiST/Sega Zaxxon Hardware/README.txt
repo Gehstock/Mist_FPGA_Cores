@@ -1,6 +1,12 @@
--- Zaxxon port to MiST
--- need ZAXXON.ROM on the SD Card
--- added Rom File includes Sounds(894kb)
+-- Zaxxon (Super Zaxxon, Future Spy) port to MiST
+--
+-- Usage:
+-- Create .ROM and ARC files from MAME ROM zip files using the mra utility and the mra files.
+-- Example: mra -A -z /path/to/mame/roms Zaxxon.mra
+-- Copy the resulting ROM and ARC files to the root of the SD Card, next to the Zaxxon.rbf.
+--
+-- MRA utilty: https://github.com/sebdel/mra-tools-c
+--
 ---------------------------------------------------------------------------------
 -- DE10_lite Top level for Zaxxon by Dar (darfpga@aol.fr) (23/11/2019)
 -- http://darfpga.blogspot.fr
