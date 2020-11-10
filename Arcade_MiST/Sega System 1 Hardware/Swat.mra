@@ -15,7 +15,7 @@
 		<dip bits="14" name="Reset Timer &amp; Objects" ids="Yes,No"/>
 	</switches>
 	<rom index="1">
-		<part>04</part>
+		<part>06</part>
 	</rom>
 	<rom index="0" zip="swat.zip" md5="692cf43b6f18dd8aa75c287293257830" type="merged|nonmerged|split">
 		<part name="epr5807b.129"/>
