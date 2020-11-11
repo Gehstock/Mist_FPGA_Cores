@@ -19,7 +19,6 @@ Available Arcade Cores(Games)  200
 	Computer Space
 
 #Atari Tetris
-	Tetris
 
 #Atari Vector
 	Lunar Lander
@@ -37,7 +36,6 @@ Available Arcade Cores(Games)  200
 	Moonwar
 
 #Capcom SonSon
-	SonSon
 
 #Crazy Climber Hardware
 	Crazy Climber
@@ -261,8 +259,7 @@ Available Arcade Cores(Games)  200
 
 #Taito Crazy Balloon
 
-#Tehkan Bombjack Hardware
-	Bombjack
+#Tehkan Bombjack
 
 #Williams 6809 rev.1 Hardware
 	Alien Arena
