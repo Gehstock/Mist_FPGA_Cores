@@ -2,7 +2,7 @@ General usage instructions:
 
 https://github.com/mist-devel/mist-board/wiki/CoreDocArcade
 
-Available Arcade Cores(Games)  182
+Available Arcade Cores(Games)  200
 
 #Atari 6502 Black & White Raster Hardware
 	Canyon Bomber
@@ -19,6 +19,7 @@ Available Arcade Cores(Games)  182
 	Computer Space
 
 #Atari Tetris
+	Tetris
 
 #Atari Vector
 	Lunar Lander
@@ -36,6 +37,7 @@ Available Arcade Cores(Games)  182
 	Moonwar
 
 #Capcom SonSon
+	SonSon
 
 #Crazy Climber Hardware
 	Crazy Climber
@@ -91,7 +93,6 @@ Available Arcade Cores(Games)  182
 	Lode Runner 2 - The Bungling Strikes Back
 	Lode Runner 3 - Majin No Fukkatsu
 	Lode Runner 4 - Teikoku Karano Dasshutsu
-	Lot Lot
 	Spelunker
 	Spelunker 2
 	The Battle Road
@@ -203,7 +204,12 @@ Available Arcade Cores(Games)  182
 	Woodpecker
 
 #Namco Rally X Hardware
+	Commando (SEGA)
+	Jungler
+	Loco-Motion
+	New Rally-X
 	Rally X
+	Tactician
 
 #Namco Super Pacman Hardware
 	Dig Dug 2
@@ -233,9 +239,25 @@ Available Arcade Cores(Games)  182
 	Phoenix
 	Pleiads
 
+#Sega System 1 Hardware
+	4-D Warriors
+	Flicky
+	I'm Sorry
+	Mister Viking
+	My Hero
+	Rafflesia
+	Regulus
+	Sega Ninja
+	Spatter
+	Swat
+	TeddyBoy Blues
+	Up'n Down
+	Wonder Boy
+
 #Sega Zaxxon Hardware
 	Zaxxon
 	Super Zaxxon
+	Future Spy
 
 #Taito Crazy Balloon
 
@@ -253,6 +275,7 @@ Available Arcade Cores(Games)  182
 	Mayday
 	Playball!
 	Robotron 2084
+	Speed Ball
 	Sinistar
 	Splat
 	Stargate
