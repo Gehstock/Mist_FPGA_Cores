@@ -2,7 +2,7 @@ General usage instructions:
 
 https://github.com/mist-devel/mist-board/wiki/CoreDocArcade
 
-Available Arcade Cores(Games)  201
+Available Arcade Cores(Games)  202
 
 #Atari 6502 Black & White Raster Hardware
 	Canyon Bomber
@@ -251,6 +251,7 @@ Available Arcade Cores(Games)  201
 	Swat
 	TeddyBoy Blues
 	Up'n Down
+	Water Match
 	Wonder Boy
 
 #Sega Zaxxon Hardware
