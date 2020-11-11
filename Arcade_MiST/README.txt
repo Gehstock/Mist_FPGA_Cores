@@ -2,7 +2,7 @@ General usage instructions:
 
 https://github.com/mist-devel/mist-board/wiki/CoreDocArcade
 
-Available Arcade Cores(Games)  200
+Available Arcade Cores(Games)  201
 
 #Atari 6502 Black & White Raster Hardware
 	Canyon Bomber
@@ -239,6 +239,7 @@ Available Arcade Cores(Games)  200
 
 #Sega System 1 Hardware
 	4-D Warriors
+	Bull Fight
 	Flicky
 	I'm Sorry
 	Mister Viking
