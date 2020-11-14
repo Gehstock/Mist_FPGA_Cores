@@ -2,7 +2,7 @@ General usage instructions:
 
 https://github.com/mist-devel/mist-board/wiki/CoreDocArcade
 
-Available Arcade Cores(Games)  201
+Available Arcade Cores(Games)  204
 
 #Atari 6502 Black & White Raster Hardware
 	Canyon Bomber
@@ -244,13 +244,16 @@ Available Arcade Cores(Games)  201
 	I'm Sorry
 	Mister Viking
 	My Hero
+	Pitfall 2
 	Rafflesia
 	Regulus
 	Sega Ninja
 	Spatter
+	Starjacker
 	Swat
 	TeddyBoy Blues
 	Up'n Down
+	Water Match
 	Wonder Boy
 
 #Sega Zaxxon Hardware
