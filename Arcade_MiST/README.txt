@@ -2,7 +2,7 @@ General usage instructions:
 
 https://github.com/mist-devel/mist-board/wiki/CoreDocArcade
 
-Available Arcade Cores(Games)  204
+Available Arcade Cores(Games)  205
 
 #Atari 6502 Black & White Raster Hardware
 	Canyon Bomber
@@ -133,6 +133,8 @@ Available Arcade Cores(Games)  204
 	Tazz Mania
 	Turtles
 	The End
+
+#Konami Time Pilot '84
 
 #Midway / Taito 8080 Hardware
 	280ZZZAP
