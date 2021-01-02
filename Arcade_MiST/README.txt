@@ -2,7 +2,7 @@ General usage instructions:
 
 https://github.com/mist-devel/mist-board/wiki/CoreDocArcade
 
-Available Arcade Cores(Games)  205
+Available Arcade Cores(Games)  206
 
 #Atari 6502 Black & White Raster Hardware
 	Canyon Bomber
@@ -223,6 +223,7 @@ Available Arcade Cores(Games)  205
 
 #Nintendo Radar Scope Hardware
 	Donkey Kong
+	Donkey Kong 3
 	Donkey Kong Jr.
 
 #Non Arcade
