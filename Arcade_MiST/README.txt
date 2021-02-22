@@ -102,8 +102,9 @@ Available Arcade Cores(Games)  208
 	Lady Bug
 	Snapjack
 
-#Konami Classic
-	Pooyan
+#Konami Pooyan
+
+#Konami Time Pilot Hardware
 	Power Surge
 	Time Pilot
 
