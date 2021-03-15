@@ -2,7 +2,7 @@ General usage instructions:
 
 https://github.com/mist-devel/mist-board/wiki/CoreDocArcade
 
-Available Arcade Cores(Games)  209
+Available Arcade Cores(Games)  210
 
 #Atari 6502 Black & White Raster Hardware
 	Canyon Bomber
@@ -216,6 +216,7 @@ Available Arcade Cores(Games)  209
 	Dig Dug 2
 	Mappy
 	Motos
+	Pac & Pal
 	Super Pacman
 	The Tower of Druaga
 
