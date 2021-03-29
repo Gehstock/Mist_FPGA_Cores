@@ -96,12 +96,6 @@ Available Arcade Cores(Games)  210
 	The Battle Road
 	Youjyudn
 
-#Ladybug Hardware
-	Cosmic Avenger
-	Dorodon
-	Lady Bug
-	Snapjack
-
 #Konami Pooyan
 
 #Konami Time Pilot Hardware
@@ -272,6 +266,12 @@ Available Arcade Cores(Games)  210
 #Taito Crazy Balloon
 
 #Tehkan Bombjack
+
+#Universal Ladybug Hardware
+	Cosmic Avenger
+	Dorodon
+	Lady Bug
+	Snapjack
 
 #Williams 6809 rev.1 Hardware
 	Alien Arena
