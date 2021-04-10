@@ -2,7 +2,7 @@ General usage instructions:
 
 https://github.com/mist-devel/mist-board/wiki/CoreDocArcade
 
-Available Arcade Cores(Games)  211
+Available Arcade Cores(Games)  212
 
 #Atari 6502 Black & White Raster Hardware
 	Canyon Bomber
@@ -273,6 +273,8 @@ Available Arcade Cores(Games)  211
 	Dorodon
 	Lady Bug
 	Snapjack
+
+#Universal Mr Do
 
 #Williams 6809 rev.1 Hardware
 	Alien Arena
