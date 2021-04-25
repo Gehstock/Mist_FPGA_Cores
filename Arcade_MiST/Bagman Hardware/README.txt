@@ -1,6 +1,9 @@
-Bagman Port to Mist FPGA by Gehstock
+Bagman Port to Mist FPGA
 
-
+- Create ARC and ROM file from the MRA file using the MRA utility.
+  Example: mra -A -z /path/to/mame/roms "Bagman.mra"
+- Copy the ARC and ROM files to the root of the SD Card
+- Copy the RBF file to the SD Card
 
 -------------------------------------------------
 Bagman (STERN) FPGA - (darfpga@aol.fr)
