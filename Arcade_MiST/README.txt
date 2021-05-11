@@ -2,7 +2,7 @@ General usage instructions:
 
 https://github.com/mist-devel/mist-board/wiki/CoreDocArcade
 
-Available Arcade Cores(Games)  214
+Available Arcade Cores(Games)  215
 
 #Atari 6502 Black & White Raster Hardware
 	Canyon Bomber
@@ -18,6 +18,7 @@ Available Arcade Cores(Games)  214
 
 #Atari Discrete Logic
 	Computer Space
+	Space Race
 
 #Atari Tetris
 
