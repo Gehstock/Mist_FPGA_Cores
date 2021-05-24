@@ -2,7 +2,7 @@ General usage instructions:
 
 https://github.com/mist-devel/mist-board/wiki/CoreDocArcade
 
-Available Arcade Cores(Games)  215
+Available Arcade Cores(Games)  216
 
 #Atari 6502 Black & White Raster Hardware
 	Canyon Bomber
@@ -135,6 +135,7 @@ Available Arcade Cores(Games)  215
 
 #Midway / Taito 8080 Hardware
 	280ZZZAP
+	Amazing Maze
 	BalloonBomber
 	BlueShark
 	Boothill
