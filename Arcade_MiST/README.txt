@@ -2,7 +2,7 @@ General usage instructions:
 
 https://github.com/mist-devel/mist-board/wiki/CoreDocArcade
 
-Available Arcade Cores(Games)  216
+Available Arcade Cores(Games)  217
 
 #Atari 6502 Black & White Raster Hardware
 	Canyon Bomber
@@ -192,6 +192,7 @@ Available Arcade Cores(Games)  216
 	Maniac Miner
 	Mr. TNT
 	Ms. Pacman
+	Number Crash
 	Pacman
 	Pacman Club
 	Pacman Plus
