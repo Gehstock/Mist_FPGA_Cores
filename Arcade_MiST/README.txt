@@ -2,7 +2,7 @@ General usage instructions:
 
 https://github.com/mist-devel/mist-board/wiki/CoreDocArcade
 
-Available Arcade Cores(Games)  217
+Available Arcade Cores(Games)  218
 
 #Atari 6502 Black & White Raster Hardware
 	Canyon Bomber
@@ -140,6 +140,7 @@ Available Arcade Cores(Games)  217
 	BlueShark
 	Boothill
 	BowlingAlley
+	Checkmate
 	GunFight
 	Lunar Rescue
 	Ozma Wars
