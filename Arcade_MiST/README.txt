@@ -2,7 +2,7 @@ General usage instructions:
 
 https://github.com/mist-devel/mist-board/wiki/CoreDocArcade
 
-Available Arcade Cores(Games)  218
+Available Arcade Cores(Games)  221
 
 #Atari 6502 Black & White Raster Hardware
 	Canyon Bomber
@@ -238,9 +238,6 @@ Available Arcade Cores(Games)  218
 	FlappyBird
 	River Raid(Clone)
 
-#Nova2001_Hardware
-	Ninja Kun
-
 #Phoenix Hardware
 	Capitol
 	Phoenix
@@ -281,6 +278,12 @@ Available Arcade Cores(Games)  218
 	Snapjack
 
 #Universal Mr Do
+
+#UPL Nova2001_Hardware
+	Ninja Kun
+	Nova 2001
+	Penguin Kun Wars
+	Raiders5
 
 #Williams 6809 rev.1 Hardware
 	Alien Arena

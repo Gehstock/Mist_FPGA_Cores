@@ -1,8 +1,14 @@
 ---------------------------------------------------------------------------------
 -- 
--- Arcade: Ninja Kun port to MiST by Slingshot
+-- Arcade: Nova 2001 Hardware port to MiST by Slingshot
 -- 29 December 2019
--- 
+-- Supported games
+
+*Ninjakun
+*Nova 2001
+*Penguin-Kun Wars
+*Raiders5
+
 ---------------------------------------------------------------------------------
 -- 
 -- Arcade: Ninja-Kun  port to MiSTer by MiSTer-X
