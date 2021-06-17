@@ -2,13 +2,14 @@ General usage instructions:
 
 https://github.com/mist-devel/mist-board/wiki/CoreDocArcade
 
-Available Arcade Cores(Games)  221
+Available Arcade Cores(Games)  222
 
 #Atari 6502 Black & White Raster Hardware
 	Canyon Bomber
 	Dominos
 	Sprint 2
 	Sprint One
+	Subs
 	Super Breakout
 	Ultra Tank
 
