@@ -2,7 +2,7 @@ General usage instructions:
 
 https://github.com/mist-devel/mist-board/wiki/CoreDocArcade
 
-Available Arcade Cores(Games)  222
+Available Arcade Cores(Games)  224
 
 #Atari 6502 Black & White Raster Hardware
 	Canyon Bomber
@@ -98,6 +98,10 @@ Available Arcade Cores(Games)  222
 	Spelunker 2
 	The Battle Road
 	Youjyudn
+
+#Konami Gyruss
+
+#Konami Jackal
 
 #Konami Pooyan
 
