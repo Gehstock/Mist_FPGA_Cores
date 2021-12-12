@@ -2,7 +2,7 @@ General usage instructions:
 
 https://github.com/mist-devel/mist-board/wiki/CoreDocArcade
 
-Available Arcade Cores(Games)  224
+Available Arcade Cores(Games)  227
 
 #Atari 6502 Black & White Raster Hardware
 	Canyon Bomber
@@ -275,6 +275,11 @@ Available Arcade Cores(Games)  224
 #Taito Crazy Balloon
 
 #Tehkan Bombjack
+
+#Universal Cosmic Hardware
+	Cosmic Alien
+	Magical Spot
+	Space Panic
 
 #Universal Ladybug Hardware
 	Cosmic Avenger
