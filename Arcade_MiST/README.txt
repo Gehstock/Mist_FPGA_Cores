@@ -2,7 +2,7 @@ General usage instructions:
 
 https://github.com/mist-devel/mist-board/wiki/CoreDocArcade
 
-Available Arcade Cores(Games)  227
+Available Arcade Cores(Games)  231
 
 #Atari 6502 Black & White Raster Hardware
 	Canyon Bomber
@@ -99,20 +99,24 @@ Available Arcade Cores(Games)  227
 	The Battle Road
 	Youjyudn
 
-#Konami Gyruss
-
-#Konami Jackal
-
-#Konami Pooyan
-
-#Konami Time Pilot Hardware
-	Power Surge
-	Time Pilot
+#Konami Finalizer
 
 #Konami Green Beret Hardware
 	Green Beret
 	Mr. Goemon
 	Rush'n Attack
+
+#Konami Gyruss
+
+#Konami Iron Horse
+
+#Konami Jackal
+
+#Konami Jailbreak
+
+#Konami Pooyan
+
+#Konami ScooterShooter
 
 #Konami Scramble Hardware
 	Amidar
@@ -135,6 +139,10 @@ Available Arcade Cores(Games)  227
 	Tazz Mania
 	Turtles
 	The End
+
+#Konami Time Pilot Hardware
+	Power Surge
+	Time Pilot
 
 #Konami Time Pilot '84
 
