@@ -101,11 +101,6 @@ Available Arcade Cores(Games)  232
 
 #Konami Finalizer
 
-#Konami Green Beret Hardware
-	Green Beret
-	Mr. Goemon
-	Rush'n Attack
-
 #Konami Gyruss
 
 #Konami Iron Horse
@@ -113,6 +108,10 @@ Available Arcade Cores(Games)  232
 #Konami Jackal
 
 #Konami Jailbreak
+	Green Beret
+	Jailbreak
+	Mr. Goemon
+	Rush'n Attack
 
 #Konami Pooyan
 
