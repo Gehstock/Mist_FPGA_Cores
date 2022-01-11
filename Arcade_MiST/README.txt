@@ -2,7 +2,7 @@ General usage instructions:
 
 https://github.com/mist-devel/mist-board/wiki/CoreDocArcade
 
-Available Arcade Cores(Games)  231
+Available Arcade Cores(Games)  232
 
 #Atari 6502 Black & White Raster Hardware
 	Canyon Bomber
@@ -101,11 +101,6 @@ Available Arcade Cores(Games)  231
 
 #Konami Finalizer
 
-#Konami Green Beret Hardware
-	Green Beret
-	Mr. Goemon
-	Rush'n Attack
-
 #Konami Gyruss
 
 #Konami Iron Horse
@@ -113,6 +108,10 @@ Available Arcade Cores(Games)  231
 #Konami Jackal
 
 #Konami Jailbreak
+	Green Beret
+	Jailbreak
+	Mr. Goemon
+	Rush'n Attack
 
 #Konami Pooyan
 
@@ -279,6 +278,8 @@ Available Arcade Cores(Games)  231
 	Zaxxon
 	Super Zaxxon
 	Future Spy
+
+#Taito Arkanoid
 
 #Taito Crazy Balloon
 
