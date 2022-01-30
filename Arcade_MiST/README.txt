@@ -2,7 +2,7 @@ General usage instructions:
 
 https://github.com/mist-devel/mist-board/wiki/CoreDocArcade
 
-Available Arcade Cores(Games)  232
+Available Arcade Cores(Games)  239
 
 #Atari 6502 Black & White Raster Hardware
 	Canyon Bomber
@@ -77,6 +77,15 @@ Available Arcade Cores(Games)  232
 	War of Bugs
 	Lucky Today
 	Zig Zag
+
+#Gottlieb Hardware
+	Curve Ball
+	Insector
+	Krull
+	Mad Planets
+	Q'bert (US, Set 1)
+	QBert Qubes
+	Tylz
 
 #Irem M52 Hardware
 	Moon Patrol
