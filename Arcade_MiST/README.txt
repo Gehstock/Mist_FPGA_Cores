@@ -2,7 +2,7 @@ General usage instructions:
 
 https://github.com/mist-devel/mist-board/wiki/CoreDocArcade
 
-Available Arcade Cores(Games)  241
+Available Arcade Cores(Games)  243
 
 #Atari 6502 Black & White Raster Hardware
 	Canyon Bomber
@@ -79,8 +79,10 @@ Available Arcade Cores(Games)  241
 	Zig Zag
 
 #Gottlieb Hardware
+	Argus
 	Curve Ball
 	Insector
+	Knightmare
 	Krull
 	Mad Planets
 	Q'bert (US, Set 1)
