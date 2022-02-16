@@ -2,7 +2,7 @@ General usage instructions:
 
 https://github.com/mist-devel/mist-board/wiki/CoreDocArcade
 
-Available Arcade Cores(Games)  239
+Available Arcade Cores(Games)  241
 
 #Atari 6502 Black & White Raster Hardware
 	Canyon Bomber
@@ -279,6 +279,8 @@ Available Arcade Cores(Games)  239
 	Starjacker
 	Swat
 	TeddyBoy Blues
+	Toki no Senshi - Chrono Soldier
+	Ufo Senshi Yohko Chan
 	Up'n Down
 	Water Match
 	Wonder Boy
