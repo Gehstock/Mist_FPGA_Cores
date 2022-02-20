@@ -2,7 +2,7 @@ General usage instructions:
 
 https://github.com/mist-devel/mist-board/wiki/CoreDocArcade
 
-Available Arcade Cores(Games)  241
+Available Arcade Cores(Games)  248
 
 #Atari 6502 Black & White Raster Hardware
 	Canyon Bomber
@@ -79,8 +79,10 @@ Available Arcade Cores(Games)  241
 	Zig Zag
 
 #Gottlieb Hardware
+	Argus
 	Curve Ball
 	Insector
+	Knightmare
 	Krull
 	Mad Planets
 	Q'bert (US, Set 1)
@@ -266,8 +268,12 @@ Available Arcade Cores(Games)  241
 
 #Sega System 1 Hardware
 	4-D Warriors
+	Block Gal
+	Brain
 	Bull Fight
+	Choplifter
 	Flicky
+	Gardia
 	I'm Sorry
 	Mister Viking
 	My Hero
@@ -276,7 +282,7 @@ Available Arcade Cores(Games)  241
 	Regulus
 	Sega Ninja
 	Spatter
-	Starjacker
+	Star Jacker
 	Swat
 	TeddyBoy Blues
 	Toki no Senshi - Chrono Soldier
@@ -284,6 +290,7 @@ Available Arcade Cores(Games)  241
 	Up'n Down
 	Water Match
 	Wonder Boy
+	Wonder Boy in Monster Land
 
 #Sega Zaxxon Hardware
 	Zaxxon

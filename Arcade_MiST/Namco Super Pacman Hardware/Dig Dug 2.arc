@@ -1,7 +1,0 @@
-[ARC]
-RBF=DRUAGA
-MOD=3
-NAME=DIGDUG2
-CONF="OJ,Lives,3,5"
-CONF="OKL,Extend,30k/80k,30k/100k,30k/120k,30k/150k"
-CONF="OM,Level Select,Off,On"
