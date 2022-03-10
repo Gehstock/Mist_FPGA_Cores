@@ -2,7 +2,7 @@ General usage instructions:
 
 https://github.com/mist-devel/mist-board/wiki/CoreDocArcade
 
-Available Arcade Cores(Games)  248
+Available Arcade Cores(Games)  252
 
 #Atari 6502 Black & White Raster Hardware
 	Canyon Bomber
@@ -88,6 +88,12 @@ Available Arcade Cores(Games)  248
 	Q'bert (US, Set 1)
 	QBert Qubes
 	Tylz
+
+#Gremlin Blockade Hardware
+	Blasto
+	Blockade
+	CoMotion
+	Hustle
 
 #Irem M52 Hardware
 	Moon Patrol
