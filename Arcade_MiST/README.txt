@@ -2,7 +2,7 @@ General usage instructions:
 
 https://github.com/mist-devel/mist-board/wiki/CoreDocArcade
 
-Available Arcade Cores(Games)  252
+Available Arcade Cores(Games)  256
 
 #Atari 6502 Black & White Raster Hardware
 	Canyon Bomber
@@ -343,3 +343,9 @@ Available Arcade Cores(Games)  252
 	Sinistar
 	Splat
 	Stargate
+
+#Williams 6809 rev.2 Hardware
+	Inferno
+	Joust 2 - Survival of the Fittest (revision 2)
+	Mystic Marathon
+	Turkey Shoot
