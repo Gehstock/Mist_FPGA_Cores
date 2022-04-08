@@ -124,7 +124,7 @@ Available Arcade Cores(Games)  256
 
 #Konami Jackal
 
-#Konami Jailbreak
+#Konami Jailbreak Hardware
 	Green Beret
 	Jailbreak
 	Mr. Goemon
