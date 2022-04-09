@@ -2,7 +2,7 @@ General usage instructions:
 
 https://github.com/mist-devel/mist-board/wiki/CoreDocArcade
 
-Available Arcade Cores(Games)  256
+Available Arcade Cores(Games)  259
 
 #Atari 6502 Black & White Raster Hardware
 	Canyon Bomber
@@ -211,6 +211,7 @@ Available Arcade Cores(Games)  256
 
 #Namco Pacman Hardware
 	Ali Baba and 40 Thieves
+	Beastie Feastie (Pac-Man Conversion)
 	Birdiy
 	Crush Roller
 	Dream Shopper
@@ -218,17 +219,20 @@ Available Arcade Cores(Games)  256
 	Eggor
 	Eyes
 	Gorkans
+	Jump Shot
 	Lizard Wizard
-	Maniac Miner
 	Mr. TNT
-	Ms. Pacman
+	Ms. Pac-Man
 	Number Crash
-	Pacman
-	Pacman Club
-	Pacman Plus
+	Pac-Man
+	Pac-Man Club
+	Pac-Man Plus
+	Pac Maniac Miner
 	Pengo
 	Ponpoko
+	Puck Man
 	Super Glob
+	The Glob (Pac-Man Hardware)
 	Van Van Car
 	Woodpecker
 
