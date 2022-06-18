@@ -2,7 +2,7 @@ General usage instructions:
 
 https://github.com/mist-devel/mist-board/wiki/CoreDocArcade
 
-Available Arcade Cores(Games)  259
+Available Arcade Cores(Games)  263
 
 #Atari 6502 Black & White Raster Hardware
 	Canyon Bomber
@@ -41,10 +41,14 @@ Available Arcade Cores(Games)  259
 #Capcom SonSon
 
 #Crazy Climber Hardware
+	Big Kong
 	Crazy Climber
 	Crazy Kong
+	Guzzler
 	River Patrol
 	Silver Land
+	Swimmer
+	Yamato
 
 #Data East Burger Time Hardware
 	Burnin Rubber
