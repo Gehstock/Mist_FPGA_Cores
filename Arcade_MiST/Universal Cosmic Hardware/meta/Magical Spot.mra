@@ -11,7 +11,7 @@
 		<dip bits="0,1"   	name="Bonus life"  ids="None,2000,3000,4000"/>
 		<dip bits="3,4"   	name="Lives"       ids="2,3,4,5"/>
 		<dip bits="5"     	name="Cabinet"     ids="Upright,Cocktail"/>
-		<dip bits="8,11"	name="Coinage"	   ids="4 Coins 4 Credits,4 Coins 3 Credits,4 Coins 2 Credits,4 Coins 1 Credit,3 Coins 4 Credits,3 Coins 3 Credits,3 Coins 2 Credits,3 Coins 1 Credit,2 Coins 3 Credits,2 Coins 2 Credits,2 Coins 1 Credit,1 Coin 5 Credits,1 Coin 4 Credits,1 Coin 3 Credits,1 Coin 2 Credits,1 Coin 1 Credit"/>
+		<dip bits="8,11"	name="Coinage"	   ids="4C 4Cr,4C 3Cr,4C 2Cr,4C 1Cr,3C 4Cr,3C 3Cr,3C 2Cr,3C 1Cr,2C 3Cr,2C 2Cr,2C 1Cr,1C 5Cr,1C 4Cr,1C 3Cr,1C 2Cr,1C 1Cr"/>
 	</switches>
 	<rom index="1">
 	    <part>02</part>
