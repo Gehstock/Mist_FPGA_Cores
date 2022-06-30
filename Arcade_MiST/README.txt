@@ -2,7 +2,7 @@ General usage instructions:
 
 https://github.com/mist-devel/mist-board/wiki/CoreDocArcade
 
-Available Arcade Cores(Games)  263
+Available Arcade Cores(Games)  273
 
 #Atari 6502 Black & White Raster Hardware
 	Canyon Bomber
@@ -257,6 +257,18 @@ Available Arcade Cores(Games)  263
 	Pac-Man & Chomp Chomp
 	Super Pacman
 	The Tower of Druaga
+
+#Nichibutsu M68000 Hardware
+	Armed F (Japan)
+	Crazy Climber 2 (Japan)
+	Kid no Hore Hore Daisakusen
+	Kozure Ookami (Japan)
+	Legion - Spinner-87 (World ver 2.03)
+	Sei Senshi Amatelass
+	Sky Robo
+	Terra Cresta (YM3526 set 1)
+	Terra Force (Japan, bootleg with additional Z80)
+	Terra Force
 
 #Nintendo Popeye Hardware
 	Popeye
