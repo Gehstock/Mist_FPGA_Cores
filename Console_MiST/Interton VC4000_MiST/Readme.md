@@ -1,6 +1,4 @@
-# Interton VC4000 game console
-
-Controls - Gamepad
+# Interton VC4000 game console by Grabulosaure
 
 ## General description
 This core implements a game console with Signetics 2650 CPU and 2636 Video controller.
