@@ -2,7 +2,7 @@ General usage instructions:
 
 https://github.com/mist-devel/mist-board/wiki/CoreDocArcade
 
-Available Arcade Cores(Games)  273
+Available Arcade Cores(Games)  274
 
 #Atari 6502 Black & White Raster Hardware
 	Canyon Bomber
@@ -169,6 +169,7 @@ Available Arcade Cores(Games)  273
 #Midway / Taito 8080 Hardware
 	280ZZZAP
 	Amazing Maze
+	Astropal
 	BalloonBomber
 	BlueShark
 	Boothill
@@ -177,12 +178,12 @@ Available Arcade Cores(Games)  273
 	GunFight
 	Lunar Rescue
 	Ozma Wars
-	Space Attack
 	Space Invaders
 	Space Invaders II(Deluxe)
 	Space Laser
 	SpaceWalk
 	Super Earth Invasion
+	Vortex
 
 #Midway MCR 1
 	Kickman
