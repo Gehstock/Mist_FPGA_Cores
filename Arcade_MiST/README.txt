@@ -2,7 +2,7 @@ General usage instructions:
 
 https://github.com/mist-devel/mist-board/wiki/CoreDocArcade
 
-Available Arcade Cores(Games)  283
+Available Arcade Cores(Games)  285
 
 #Atari 6502 Black & White Raster Hardware
 	Canyon Bomber
@@ -120,15 +120,17 @@ Available Arcade Cores(Games)  283
 	The Battle Road
 	Youjyudn
 
-#Irem M72 Hardware
+#Irem M72-M84 Hardware
 	Air Duel (Japan, M72 hardware)
 	Dragon Breed (Japan, M72 hardware)
 	Gallop - Armed Police Unit (Japan, M72 hardware)
+	Hammerin' Harry (US, M84 hardware)
 	Image Fight
 	Legend of Hero Tonma (Japan)
 	Mr. HELI no Daibouken (Japan)
 	Ninja Spirit (Japan)
 	R-Type
+	R-Type II
 	X Multiply (Japan, M72 hardware)
 
 #Konami Finalizer
