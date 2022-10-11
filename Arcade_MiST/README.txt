@@ -2,7 +2,7 @@ General usage instructions:
 
 https://github.com/mist-devel/mist-board/wiki/CoreDocArcade
 
-Available Arcade Cores(Games)  285
+Available Arcade Cores(Games)  287
 
 #Atari 6502 Black & White Raster Hardware
 	Canyon Bomber
@@ -271,6 +271,10 @@ Available Arcade Cores(Games)  285
 	Pac-Man & Chomp Chomp
 	Super Pacman
 	The Tower of Druaga
+
+Nichibutsu Galivan Hardware
+	Cosmo Police Galivan
+	Ufo Robo Dangar
 
 #Nichibutsu M68000 Hardware
 	Armed F (Japan)
