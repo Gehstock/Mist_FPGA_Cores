@@ -2,7 +2,7 @@ General usage instructions:
 
 https://github.com/mist-devel/mist-board/wiki/CoreDocArcade
 
-Available Arcade Cores(Games)  288
+Available Arcade Cores(Games)  293
 
 #Atari 6502 Black & White Raster Hardware
 	Canyon Bomber
@@ -341,6 +341,13 @@ Nichibutsu Galivan Hardware
 	Zaxxon
 	Super Zaxxon
 	Future Spy
+
+#SNK M68000 Harware
+	Ikari III - The Rescue
+	P.O.W. - Prisoners of War
+	Prehistoric Isle in 1930
+	SAR - Search And Rescue
+	Street Smart
 
 #Taito Arkanoid
 
