@@ -273,7 +273,7 @@ Available Arcade Cores(Games)  293
 	Super Pacman
 	The Tower of Druaga
 
-Nichibutsu Galivan Hardware
+#Nichibutsu Galivan Hardware
 	Cosmo Police Galivan
 	Ufo Robo Dangar
 
