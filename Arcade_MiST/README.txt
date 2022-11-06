@@ -59,31 +59,6 @@ Available Arcade Cores(Games)  295
 #Dottori-Kun Hardware
 	Dottori Kun / Dottori-Man Jr / Mine Sweeper   (3in1Game)
 
-#Galaga Hardware
-	Digdug
-	Galaga
-	Xevious
-
-#Galaxian Hardware
-	Azurian Attack
-	Black Hole
-	Catacomb
-	Chewing Gum
-	Devil Fish
-	Galaxian
-	King & Balloon
-	Moon Cresta
-	Mr. Do's Nightmare
-	Omega
-	Orbitron
-	Pisces
-	Triple Draw Poker
-	Uniwars
-	Victory
-	War of Bugs
-	Lucky Today
-	Zig Zag
-
 #Gottlieb Hardware
 	Argus
 	Curve Ball
@@ -229,6 +204,32 @@ Available Arcade Cores(Games)  295
 	Crater Raider
 	Spy Hunter
 	Turbo Tag
+
+#Namco Galaga Hardware
+	Digdug
+	Galaga
+	Xevious
+
+#Namco Galaxian Hardware
+	Azurian Attack
+	Black Hole
+	Catacomb
+	Chewing Gum
+	Devil Fish
+	Galaxian
+	King & Balloon
+	Moon Cresta
+	Mr. Do's Nightmare
+	Omega
+	Orbitron
+	Pisces
+	Triple Draw Poker
+	Uniwars
+	Victory
+	War of Bugs
+	Lucky Today
+	Zig Zag
+
 
 #Namco Pacman Hardware
 	Ali Baba and 40 Thieves
