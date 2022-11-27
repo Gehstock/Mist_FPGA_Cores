@@ -1,7 +1,7 @@
 ---------------------------------------------------------------------------------
 -- 
--- Arcade: Pleiads for MiST by Gehstock
--- 25 June 2019
+-- Arcade: Phoenix for MiST
+-- 18 December 2017
 -- 
 ---------------------------------------------------------------------------------
 -- Copyright (c) DAR - Feb 2016
@@ -17,7 +17,8 @@
 --   F1          : Start 1 player
 --   F2          : Start 2 players
 --   SPACE       : Fire
---   ARROW KEYS  : Movement/Shield
+--   TAB	 : Shield
+--   ARROW KEYS  : Movement
 --
 -- Joystick support.
 -- 
