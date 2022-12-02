@@ -2,7 +2,7 @@ General usage instructions:
 
 https://github.com/mist-devel/mist-board/wiki/CoreDocArcade
 
-Available Arcade Cores(Games)  295
+Available Arcade Cores(Games)  297
 
 #Atari 6502 Black & White Raster Hardware
 	Canyon Bomber
@@ -343,9 +343,11 @@ Available Arcade Cores(Games)  295
 	Wonder Boy in Monster Land
 
 #Sega Zaxxon Hardware
-	Zaxxon
-	Super Zaxxon
+	Congo Bongo
 	Future Spy
+	Super Zaxxon
+	Tip Top
+	Zaxxon
 
 #SNK M68000 Harware
 	Ikari III - The Rescue
