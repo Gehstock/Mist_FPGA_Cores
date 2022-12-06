@@ -2,7 +2,7 @@ General usage instructions:
 
 https://github.com/mist-devel/mist-board/wiki/CoreDocArcade
 
-Available Arcade Cores(Games)  297
+Available Arcade Cores(Games)  298
 
 #Atari 6502 Black & White Raster Hardware
 	Canyon Bomber
@@ -51,6 +51,8 @@ Available Arcade Cores(Games)  297
 	Silver Land
 	Swimmer
 	Yamato
+
+#Data East Express Raider
 
 #Data East Burger Time Hardware
 	Burnin Rubber
