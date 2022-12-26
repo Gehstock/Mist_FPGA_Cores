@@ -2,7 +2,16 @@ General usage instructions:
 
 https://github.com/mist-devel/mist-board/wiki/CoreDocArcade
 
-Available Arcade Cores(Games)  299
+Available Arcade Cores(Games)  305
+
+#Alpha Densi M68000 Hardware
+	Gang Wars
+	Gold Medalist (Set 1, Alpha68k II PCB)
+	Sky Adventure (World)
+	Sky Soldiers (US)
+	Super Champion Baseball (Japan)
+	Time Soldiers (US Rev 3)
+
 
 #Atari 6502 Black & White Raster Hardware
 	Canyon Bomber
