@@ -2,7 +2,7 @@ General usage instructions:
 
 https://github.com/mist-devel/mist-board/wiki/CoreDocArcade
 
-Available Arcade Cores(Games)  305
+Available Arcade Cores(Games)  307
 
 #Alpha Densi M68000 Hardware
 	Gang Wars
@@ -328,6 +328,10 @@ Available Arcade Cores(Games)  305
 	Capitol
 	Phoenix
 	Pleiads
+
+#Sega Bank Panic Hardware
+	BankPanic
+	Combat Hawk
 
 #Sega System 1 Hardware
 	4-D Warriors
