@@ -2,7 +2,7 @@ General usage instructions:
 
 https://github.com/mist-devel/mist-board/wiki/CoreDocArcade
 
-Available Arcade Cores(Games)  307
+Available Arcade Cores(Games)  308
 
 #Alpha Densi M68000 Hardware
 	Gang Wars
@@ -182,6 +182,7 @@ Available Arcade Cores(Games)  307
 	Laguna Racer
 	Lunar Rescue
 	Ozma Wars
+	Space Chaser
 	Space Invaders
 	Space Invaders II(Deluxe)
 	Space Laser
