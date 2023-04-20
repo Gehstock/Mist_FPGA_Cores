@@ -2,7 +2,7 @@ General usage instructions:
 
 https://github.com/mist-devel/mist-board/wiki/CoreDocArcade
 
-Available Arcade Cores(Games)  308
+Available Arcade Cores(Games)  321
 
 #Alpha Densi M68000 Hardware
 	Gang Wars
@@ -120,6 +120,21 @@ Available Arcade Cores(Games)  308
 	R-Type
 	R-Type II
 	X Multiply (Japan, M72 hardware)
+
+#Irem M92 Hardware
+	Blade Master (World)
+	Dream Soccer '94 (Japan, M92 hardware)
+	Gunforce - Battle Fire Engulfed Terror Island (World)
+	Gun Force II (US)
+	Hook (World)
+	In The Hunt (World)
+	Lethal Thunder (World)
+	Major Title 2 (World, set 1)
+	Mystic Riders (World)
+	Ninja Baseball Bat Man (World)
+	R-Type Leo (World)
+	Superior Soldiers (US)
+	Undercover Cops (World)
 
 #Kiwako MrJong
 
