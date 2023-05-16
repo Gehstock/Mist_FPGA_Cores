@@ -2,7 +2,7 @@ General usage instructions:
 
 https://github.com/mist-devel/mist-board/wiki/CoreDocArcade
 
-Available Arcade Cores(Games)  321
+Available Arcade Cores(Games)  326
 
 #Alpha Densi M68000 Hardware
 	Gang Wars
@@ -333,6 +333,13 @@ Available Arcade Cores(Games)  321
 	Donkey Kong Jr.
 	Pest Place
 	Radar Scope
+
+#Noma Tri-Pool Hardware
+	Freeze
+	Jack the Giantkiller
+	Super Casino
+	Tri-pool
+	Zzyzzyxx
 
 #Non Arcade
 	2048
