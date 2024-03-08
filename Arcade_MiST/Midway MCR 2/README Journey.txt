@@ -13,6 +13,12 @@
 -- MRA utilty: https://github.com/sebdel/mra-tools-c
 --
 -- Based on Kickman/Timber by Dar
+-- Tape Support by Alastair M. Robinson
+
+
+For Use oft the Tape Audio, you need the Sample File sepways.wav. Rename it to Journey.vhd and Copy it to the SD Card
+
+
 ---------------------------------------------------------------------------------
 -- DE10_lite Top level for Kick (Midway MCR) by Dar (darfpga@aol.fr) (19/10/2019)
 -- http://darfpga.blogspot.fr
