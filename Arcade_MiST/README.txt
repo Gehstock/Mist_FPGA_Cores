@@ -2,7 +2,7 @@ General usage instructions:
 
 https://github.com/mist-devel/mist-board/wiki/CoreDocArcade
 
-Available Arcade Cores(Games)  326
+Available Arcade Cores(Games)  328
 
 #Alpha Densi M68000 Hardware
 	Gang Wars
@@ -135,6 +135,10 @@ Available Arcade Cores(Games)  326
 	R-Type Leo (World)
 	Superior Soldiers (US)
 	Undercover Cops (World)
+
+# Jaleco NaughtyBoy Hardware
+	Naughty Boy
+	Pop Flamer
 
 #Kiwako MrJong
 
